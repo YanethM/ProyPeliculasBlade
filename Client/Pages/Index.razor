@@ -1,0 +1,11 @@
+﻿@page "/"
+@using ProyBaseMuestra.Client.Pages.Components
+@inject IServiceMovie movie
+<CardMoviesComponent Movies="Movies"></CardMoviesComponent>
+@code {
+    private List<Movie> Movies;
+    protected override void OnInitialized()
+    {
+        Movies = movie.GetMovies();
+    }
+}

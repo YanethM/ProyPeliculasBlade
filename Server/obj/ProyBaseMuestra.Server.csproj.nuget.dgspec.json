@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProysCicloIII\\ProyBaseMuestra\\Server\\ProyBaseMuestra.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\ProysCicloIII\\ProyBaseMuestra\\Client\\ProyBaseMuestra.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProysCicloIII\\ProyBaseMuestra\\Client\\ProyBaseMuestra.Client.csproj",
+        "projectName": "ProyBaseMuestra.Client",
+        "projectPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Client\\ProyBaseMuestra.Client.csproj",
+        "packagesPath": "C:\\Users\\YanethM\\.nuget\\packages\\",
+        "outputPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YanethM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj": {
+                "projectPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.10, 5.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\ProysCicloIII\\ProyBaseMuestra\\Server\\ProyBaseMuestra.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProysCicloIII\\ProyBaseMuestra\\Server\\ProyBaseMuestra.Server.csproj",
+        "projectName": "ProyBaseMuestra.Server",
+        "projectPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Server\\ProyBaseMuestra.Server.csproj",
+        "packagesPath": "C:\\Users\\YanethM\\.nuget\\packages\\",
+        "outputPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YanethM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\ProysCicloIII\\ProyBaseMuestra\\Client\\ProyBaseMuestra.Client.csproj": {
+                "projectPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Client\\ProyBaseMuestra.Client.csproj"
+              },
+              "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj": {
+                "projectPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj",
+        "projectName": "ProyBaseMuestra.Shared",
+        "projectPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\ProyBaseMuestra.Shared.csproj",
+        "packagesPath": "C:\\Users\\YanethM\\.nuget\\packages\\",
+        "outputPath": "C:\\ProysCicloIII\\ProyBaseMuestra\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YanethM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

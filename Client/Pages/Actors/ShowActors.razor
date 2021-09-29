@@ -1,0 +1,12 @@
+@page "/actor"
+@using ProyBaseMuestra.Client.Pages.Components
+@inject IServiceActor actor
+
+<CardActorsComponent Actors="Actors"></CardActorsComponent>
+@code {
+    private List<Actor> Actors;
+    protected override void OnInitialized()
+    {
+        Actors = actor.GetActors();
+    }
+}

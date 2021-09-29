@@ -1,0 +1,12 @@
+C:\ProysCicloIII\ProyBaseMuestra\Shared\bin\Debug\net5.0\ProyBaseMuestra.Shared.deps.json
+C:\ProysCicloIII\ProyBaseMuestra\Shared\bin\Debug\net5.0\ProyBaseMuestra.Shared.dll
+C:\ProysCicloIII\ProyBaseMuestra\Shared\bin\Debug\net5.0\ref\ProyBaseMuestra.Shared.dll
+C:\ProysCicloIII\ProyBaseMuestra\Shared\bin\Debug\net5.0\ProyBaseMuestra.Shared.pdb
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.dll
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ref\ProyBaseMuestra.Shared.dll
+C:\ProysCicloIII\ProyBaseMuestra\Shared\obj\Debug\net5.0\ProyBaseMuestra.Shared.pdb
