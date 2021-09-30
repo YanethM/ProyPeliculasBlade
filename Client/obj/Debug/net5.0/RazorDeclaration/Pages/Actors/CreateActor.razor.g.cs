@@ -96,6 +96,14 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Actors\CreateActor.razor"
+using ProyBaseMuestra.Client.Pages.Components;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/actors/create")]
     public partial class CreateActor : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -103,6 +111,17 @@ using ProyBaseMuestra.Client.Services;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 4 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Actors\CreateActor.razor"
+      
+    private Actor Actor = new Actor();
+    void Create(){
+        Console.WriteLine("");
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

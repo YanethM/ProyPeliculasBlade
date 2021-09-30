@@ -96,6 +96,14 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Actors\EditActor.razor"
+using ProyBaseMuestra.Client.Pages.Components;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/actors/edit/{ActorId:int}")]
     public partial class EditActor : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -103,6 +111,27 @@ using ProyBaseMuestra.Client.Services;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 5 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Actors\EditActor.razor"
+       
+    [Parameter] public int ActorId { get; set; }
+    Actor Actor = new Actor();
+    protected override void OnInitialized()
+    {
+        Actor = new Actor()
+        {
+            Id = ActorId,
+            ActorName = "Will Smith",
+            BirthDate = DateTime.Today
+        };
+    }
+    private void Edit(){
+        Console.WriteLine("Editando actor");
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

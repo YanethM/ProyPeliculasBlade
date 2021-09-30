@@ -1,0 +1,20 @@
+@page "/actors/edit/{ActorId:int}"
+@using ProyBaseMuestra.Client.Pages.Components
+
+<FormActor OnValidSubmit="Edit" Actor="Actor"></FormActor>
+@code {
+    [Parameter] public int ActorId { get; set; }
+    Actor Actor = new Actor();
+    protected override void OnInitialized()
+    {
+        Actor = new Actor()
+        {
+            Id = ActorId,
+            ActorName = "Will Smith",
+            BirthDate = DateTime.Today
+        };
+    }
+    private void Edit(){
+        Console.WriteLine("Editando actor");
+    }
+}

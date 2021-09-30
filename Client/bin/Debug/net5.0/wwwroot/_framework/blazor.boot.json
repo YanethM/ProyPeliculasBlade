@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-7WjHY56PbksCp7YOxNV59r6MqLujjAH8vhnMJ+zVezY=",
       "netstandard.dll": "sha256-5TcSqPhm3fAT6s3NH7+BMGakcfGgZGd3\/\/cVwVs2VPI=",
       "System.Private.CoreLib.dll": "sha256-VJv3DLM\/G0m\/RnTeWL9X8mkbxlsn8nNRhm0BHYEY+uo=",
-      "ProyBaseMuestra.Shared.dll": "sha256-ySFPdC5oc17Jt36OC6J60EeVQPwVZ3VS4F+rVy1O99o=",
-      "ProyBaseMuestra.Client.dll": "sha256-cJir38V3AVLXG2\/bb\/8QLzamK8qOm7TdISdFaLQlqFE="
+      "ProyBaseMuestra.Shared.dll": "sha256-AAKd2skUAUn9gfdmPBeA82trw9LMGxP1AH7Ry8HRUO8=",
+      "ProyBaseMuestra.Client.dll": "sha256-v2fvbj7mykaMDZgixbGr7Rn0M6BXi2U7Zw0iRmShVqY="
     },
     "lazyAssembly": null,
     "pdb": {
-      "ProyBaseMuestra.Shared.pdb": "sha256-O1w\/WIfM6qGWLkIbAKgkJ\/YL5dZGQZUsV3Ke+0Csm3M=",
-      "ProyBaseMuestra.Client.pdb": "sha256-0FhFzaJmoxdDnxEIJ6pg+JMaORF5Atk2xo+Pk\/gnpis="
+      "ProyBaseMuestra.Shared.pdb": "sha256-WCQmnim2KwQ1G20WnuFkeB8yVO4rEco2ptGKnkeKKy0=",
+      "ProyBaseMuestra.Client.pdb": "sha256-fsxlWqt+xfuavowYig7\/J7LEE71V7vBv5+ny+JVjJqk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-PvlHrby1PYtdX46ITs6pB8iDNqXNcewh8Eoa\/Gm2+GM=",

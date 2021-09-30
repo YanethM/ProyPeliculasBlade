@@ -8,7 +8,6 @@ namespace ProyBaseMuestra.Client.Services
     {
         public List<Movie> GetMovies(){
             return new List<Movie>{
-                new Movie(){MovieName="Movie 1",MovieImage="/Images/Movies/Movie1.jpg",Sinapsis="Sinapsis movie",Score=100,Premier=new DateTime(2021,09,24)},
                 new Movie(){MovieName="Movie 2",MovieImage="/Images/Movies/Movie2.jpg",Sinapsis="Sinapsis movie",Score=100,Premier=new DateTime(2021,09,24)},
                 new Movie(){MovieName="Movie 3",MovieImage="/Images/Movies/Movie3.jpg",Sinapsis="Sinapsis movie",Score=100,Premier=new DateTime(2021,09,24)},
                 new Movie(){MovieName="Movie 4",MovieImage="/Images/Movies/Movie4.jpg",Sinapsis="Sinapsis movie",Score=100,Premier=new DateTime(2021,09,24)},

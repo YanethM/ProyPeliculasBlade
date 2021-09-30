@@ -104,7 +104,7 @@ using ProyBaseMuestra.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Components\CardMoviesComponent.razor"
+#line 22 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Components\CardMoviesComponent.razor"
        
     [Parameter] public List<Movie> Movies { get; set; }
 

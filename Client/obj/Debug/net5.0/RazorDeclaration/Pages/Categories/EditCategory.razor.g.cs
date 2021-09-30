@@ -96,6 +96,13 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\EditCategory.razor"
+using ProyBaseMuestra.Client.Pages.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/categories/edit/{Id:int}")]
     public partial class EditCategory : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,7 +112,7 @@ using ProyBaseMuestra.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 3 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\EditCategory.razor"
+#line 4 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\EditCategory.razor"
       
     [Parameter] public int Id {get;set;}
     private Category Category;

@@ -104,7 +104,7 @@ using ProyBaseMuestra.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "C:\ProysCicloIII\ProyBaseMuestra\Client\Shared\NavMenu.razor"
+#line 34 "C:\ProysCicloIII\ProyBaseMuestra\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

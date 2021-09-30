@@ -96,6 +96,13 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\CreateCategory.razor"
+using ProyBaseMuestra.Client.Pages.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/categories/create")]
     public partial class CreateCategory : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,7 +112,7 @@ using ProyBaseMuestra.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 3 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\CreateCategory.razor"
+#line 4 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\CreateCategory.razor"
        
     private Category Category = new Category();
     private void Create() { 

@@ -658,7 +658,11 @@ C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\CustomNotFound.razor.g.cs
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\MovieComponent.razor.g.cs
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\MovieComponent.razor.g.cs
-C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Categories\FormCategory.razor.g.cs
-C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Categories\FormCategory.razor.g.cs
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies\FiltroMovies.razor.g.cs
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Movies\FiltroMovies.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\FormCategory.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\FormCategory.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\FormActor.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\FormActor.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\ImageComponent.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\ImageComponent.razor.g.cs

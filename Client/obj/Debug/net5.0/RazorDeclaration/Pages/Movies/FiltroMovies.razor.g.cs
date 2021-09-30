@@ -112,7 +112,7 @@ using ProyBaseMuestra.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 47 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Movies\FiltroMovies.razor"
+#line 74 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Movies\FiltroMovies.razor"
        
     private List<Movie> Movies;
     string movie_name = "";
@@ -136,7 +136,7 @@ using ProyBaseMuestra.Client.Pages.Components;
     }
     private void CargarNuevasPeliculas()
     {
-        Movies = movie.GetMovies().Where(x=>x.MovieName.ToLower().Contains(movie_name.ToLower())).ToList();
+        Movies = movie.GetMovies().Where(x => x.MovieName.ToLower().Contains(movie_name.ToLower())).ToList();
         Console.WriteLine($"Nombre pelicula: {movie_name}");
         Console.WriteLine($"Categoría seleccionada: {categorySelected}");
         Console.WriteLine($"En cartelera {enCartelera}");

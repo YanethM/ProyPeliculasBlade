@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="jumbotron">
+        <EditForm Model="Category" OnValidSubmit="OnValidSubmit">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <div class="form-group">
+                <label class="form-label">
+                    Categoría
+                </label>
+                <div class="mb-3">
+                    <InputText class="form-control" @bind-Value="@Category.Name"></InputText>
+                    <ValidationMessage For="@(()=>Category.Name)"></ValidationMessage>
+                </div>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-success">Guardar</button>
+            </div>
+        </EditForm>
+
+    </div>
+</div>
+
+@code {
+    [Parameter] public Category Category { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+}

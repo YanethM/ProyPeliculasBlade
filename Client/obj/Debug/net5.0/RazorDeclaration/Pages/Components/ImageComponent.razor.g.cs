@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ProyBaseMuestra.Client.Pages.Categories
+namespace ProyBaseMuestra.Client.Pages.Components
 {
     #line hidden
     using System;
@@ -96,7 +96,7 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
-    public partial class FormCategory : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ImageComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -104,10 +104,27 @@ using ProyBaseMuestra.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Categories\FormCategory.razor"
+#line 31 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Components\ImageComponent.razor"
        
-    [Parameter] public Category Category { get; set; }
-    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public string Label { get; set; } = "Imagen";
+    [Parameter] public string ImageURL { get; set; }
+    [Parameter] public EventCallback<string> ImageSelected { get; set; }
+
+
+    private string imageT;
+    async Task OnChange(InputFileChangeEventArgs e)
+    {
+        var images = e.GetMultipleFiles();
+        foreach (var image in images)
+        {
+            var tamaño = new byte[image.Size];
+            await image.OpenReadStream().ReadAsync(tamaño);
+            imageT =Convert.ToBase64String(tamaño);
+            ImageURL = null;
+            await ImageSelected.InvokeAsync(imageT);
+            StateHasChanged();
+        }
+    }
 
 #line default
 #line hidden

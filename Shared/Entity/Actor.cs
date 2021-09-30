@@ -1,13 +1,17 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 namespace ProyBaseMuestra.Shared.Entity
 {
     public class Actor
     {
+        public int Id {get;set;}
+        [Required]
         public string ActorName{get;set;}
         public DocumentType DocumentType{get;set;}
         public string Document{get;set;}
         public Gender Gender {get;set;}
-        public DateTime BirthDate{get;set;}
+         [Required]
+        public DateTime? BirthDate{get;set;}
         public int KnowCredits {get;set;}
         public int Nominations {get;set;}
         public string Biography {get;set;}
