@@ -10,7 +10,7 @@ namespace ProyBaseMuestra.Shared.Entity
         public DocumentType DocumentType{get;set;}
         public string Document{get;set;}
         public Gender Gender {get;set;}
-         [Required]
+        [Required]
         public DateTime? BirthDate{get;set;}
         public int KnowCredits {get;set;}
         public int Nominations {get;set;}

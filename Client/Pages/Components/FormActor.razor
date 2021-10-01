@@ -13,7 +13,8 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <InputNumber class="form-control" @bind-Value="@Actor.KnowCredits" placeholder="Cantidad de créditos"></InputNumber>
+                    <InputNumber class="form-control" @bind-Value="@Actor.KnowCredits" placeholder="Cantidad de créditos">
+                    </InputNumber>
                     <ValidationMessage For="@(()=>Actor.KnowCredits)"></ValidationMessage>
                 </div>
             </div>
@@ -25,7 +26,6 @@
             <button class="btn btn-success">Guardar</button>
         </EditForm>
     </div>
-
 </div>
 
 @code {

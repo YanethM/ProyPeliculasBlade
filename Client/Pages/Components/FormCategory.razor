@@ -3,11 +3,8 @@
         <EditForm Model="Category" OnValidSubmit="OnValidSubmit">
             <DataAnnotationsValidator></DataAnnotationsValidator>
             <div class="form-group">
-                <label class="form-label">
-                    Categoría
-                </label>
                 <div class="mb-3">
-                    <InputText class="form-control" @bind-Value="@Category.Name"></InputText>
+                    <InputText class="form-control" @bind-Value="@Category.Name" placeholder="Nombre de la categoría"></InputText>
                     <ValidationMessage For="@(()=>Category.Name)"></ValidationMessage>
                 </div>
             </div>

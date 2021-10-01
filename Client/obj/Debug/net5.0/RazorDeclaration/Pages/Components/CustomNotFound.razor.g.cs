@@ -104,9 +104,10 @@ using ProyBaseMuestra.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 2 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Components\CustomNotFound.razor"
-      
-    protected override void OnInitialized(){
+#line 5 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Components\CustomNotFound.razor"
+       
+    protected override void OnInitialized()
+    {
         Console.WriteLine("404: Página no encontrada");
     }
 

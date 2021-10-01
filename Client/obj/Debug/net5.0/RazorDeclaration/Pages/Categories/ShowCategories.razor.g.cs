@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ProyBaseMuestra.Client.Pages.Components
+namespace ProyBaseMuestra.Client.Pages.Categories
 {
     #line hidden
     using System;
@@ -96,22 +96,14 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
-    public partial class FormCategory : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/categories")]
+    public partial class ShowCategories : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 19 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Components\FormCategory.razor"
-       
-    [Parameter] public Category Category { get; set; }
-    [Parameter] public EventCallback OnValidSubmit { get; set; }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591
