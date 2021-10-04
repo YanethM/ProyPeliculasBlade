@@ -126,7 +126,7 @@ using ProyBaseMuestra.Client.Pages.Components;
 
     private void Edit(){
         Console.WriteLine($"Id: {Category.Id}");
-        Console.WriteLine($"Id: {Category.Name}");
+        Console.WriteLine($"Categoría: {Category.Name}");
 
     }
 

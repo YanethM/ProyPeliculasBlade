@@ -668,3 +668,7 @@ C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\ImageComponent.razor.g.cs
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Categories\ShowCategories.razor.g.cs
 C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Categories\ShowCategories.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\FormMovie.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\FormMovie.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\SelectorMultiple.razor.g.cs
+C:\ProysCicloIII\ProyBaseMuestra\Client\obj\Debug\net5.0\Razor\Pages\Components\SelectorMultiple.razor.g.cs

@@ -96,6 +96,14 @@ using ProyBaseMuestra.Client.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Movies\EditMovie.razor"
+using ProyBaseMuestra.Client.Pages.Components;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/movies/edit/{MovieId:int}")]
     public partial class EditMovie : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -103,6 +111,29 @@ using ProyBaseMuestra.Client.Services;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 7 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Movies\EditMovie.razor"
+                                                                                    
+    [Parameter] public int MovieId{get;set;}
+    Movie Movie = new Movie();
+
+    protected override void OnInitialized(){
+        Movie = new Movie(){
+            Id = MovieId, 
+            Name = "Spiderman",
+            Sinopsis="Sinopsis spiderman",
+            EnCartelera= true
+            };
+    }
+
+    void Edit(){
+        Console.WriteLine($"Actualizar nombre pelicula {Movie.Name}");
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

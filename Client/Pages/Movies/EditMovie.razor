@@ -1,0 +1,26 @@
+@page "/movies/edit/{MovieId:int}"
+@using ProyBaseMuestra.Client.Pages.Components
+@inject NavigationManager navigationManager
+<FormMovie Movie="Movie" OnValidSubmit="Edit"></FormMovie>
+
+@code{
+    @* Recibimos el id de la pelicula para saber cual es la que se debe consultar *@
+    [Parameter] public int MovieId{get;set;}
+    Movie Movie = new Movie();
+
+    protected override void OnInitialized(){
+        Movie = new Movie(){
+            Id = MovieId, 
+            Name = "Spiderman",
+            Sinopsis="Sinopsis spiderman",
+            EnCartelera= true
+            };
+    }
+
+    void Edit(){
+        Console.WriteLine($"Actualizar nombre pelicula {Movie.Name}");
+    }
+}
+
+
+ 

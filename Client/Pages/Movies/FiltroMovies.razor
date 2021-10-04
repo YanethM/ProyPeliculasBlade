@@ -94,7 +94,7 @@
     }
     private void CargarNuevasPeliculas()
     {
-        Movies = movie.GetMovies().Where(x => x.MovieName.ToLower().Contains(movie_name.ToLower())).ToList();
+        Movies = movie.GetMovies().Where(x => x.Name.ToLower().Contains(movie_name.ToLower())).ToList();
         Console.WriteLine($"Nombre pelicula: {movie_name}");
         Console.WriteLine($"Categoría seleccionada: {categorySelected}");
         Console.WriteLine($"En cartelera {enCartelera}");
