@@ -196,12 +196,12 @@
       "netstandard.dll": "sha256-5TcSqPhm3fAT6s3NH7+BMGakcfGgZGd3\/\/cVwVs2VPI=",
       "System.Private.CoreLib.dll": "sha256-VJv3DLM\/G0m\/RnTeWL9X8mkbxlsn8nNRhm0BHYEY+uo=",
       "ProyBaseMuestra.Shared.dll": "sha256-pPfds9am0bGskVIh0ro2jrxK4f2GG7ykArC1Gd5mMQ0=",
-      "ProyBaseMuestra.Client.dll": "sha256-3Mqxw9xf6BLCQ7ULUw\/hYdrBfy062Qpj3GHz6Id3ZJg="
+      "ProyBaseMuestra.Client.dll": "sha256-zJpF\/kV6bTTIAfKMJkSfqqk2LO6\/0L7OHJfF2hjkoKY="
     },
     "lazyAssembly": null,
     "pdb": {
       "ProyBaseMuestra.Shared.pdb": "sha256-9qMlPlPnQZH5jOIsSTp1sAbjs8tOsS5O2xt6Qv\/z7uE=",
-      "ProyBaseMuestra.Client.pdb": "sha256-LJy8qbt+C+wHg4iSVLxvYbRdlv76wJDidCVEdMWX70I="
+      "ProyBaseMuestra.Client.pdb": "sha256-rFRSG9aZR5n+msPm3UlYDh3S6v3QLq085HK7YkzGmko="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-PvlHrby1PYtdX46ITs6pB8iDNqXNcewh8Eoa\/Gm2+GM=",

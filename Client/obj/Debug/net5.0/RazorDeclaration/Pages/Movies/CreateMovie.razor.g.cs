@@ -98,7 +98,7 @@ using ProyBaseMuestra.Client.Services;
 #nullable disable
 #nullable restore
 #line 3 "C:\ProysCicloIII\ProyBaseMuestra\Client\Pages\Movies\CreateMovie.razor"
-using ProyBaseMuestra.Client.Pages.Components;
+using ProyBaseMuestra;
 
 #line default
 #line hidden
